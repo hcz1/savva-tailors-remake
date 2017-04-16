@@ -96,6 +96,7 @@ ul.white-list li {
 	font-size: 18px;
 	margin: 10px 0;
 	color: #fff;
+	list-style-type: none;
 }
 
 ul.white-list li:before {
@@ -107,6 +108,7 @@ ul.white-list li:before {
 	height: 6px;
 	margin-right: 15px;
 	background: white;
+	list-style-type: none;
 }
 
 header {
@@ -114,7 +116,7 @@ header {
 	width: 100%;
 	color: white;
 	background: rgba(28, 36, 65, 0.93);
-	background: url('../img/header.jpg');
+	background: url('../img/suit-banner.jpg');
 	background-size: cover;
 }
 
