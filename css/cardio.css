@@ -629,7 +629,7 @@ section {
 
 .pricings .pricing .box-main:not(.active):hover {
 	//background: #fff;
-	border: 1px solid #ddd;
+	//border: 1px solid #ddd;
 }
 
 .pricings .pricing .box-main.active {
@@ -637,7 +637,7 @@ section {
 	-webkit-transform: translateX(-99%);
 	-ms-transform: translateX(-99%);
 	transform: translateX(-99%);
-	border: 1px solid #ddd;
+	//border: 1px solid #ddd;
 }
 
 .pricings .pricing .box-second {
@@ -647,13 +647,13 @@ section {
 	left: auto;
 	opacity: 0;
 	background: #fff;
-	border: 1px solid #ddd;
+	//border: 1px solid #ddd;
 }
 
 .pricings .pricing .box-second.active {
 	opacity: 1;
 	background: #fff;
-	border: 1px solid #ddd;
+	//border: 1px solid #ddd;
 }
 
 .pricings .pricing.active .box-main,
