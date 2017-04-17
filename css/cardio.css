@@ -192,6 +192,13 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	background: #bbb;
 }
 /* Buttons */
+.form-area
+{
+    //background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
 
 .btn {
 	font-size: 18px;
@@ -200,7 +207,7 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	color: white;
 	border: 2px solid transparent;
 	border-radius: 2px;
-	background: transparent;
+	//background: transparent;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
@@ -465,7 +472,9 @@ section {
 	transition: all 0.3s ease;
 }
 
-
+.service1 {
+	background: url(../img/suit1.jpg)
+}
 
 
 .service .icon-holder {
@@ -488,6 +497,7 @@ section {
 
 .service .icon-holder > img.icon {
 	width: 40px;
+	background-color: transparent;
 }
 
 .service:hover {
