@@ -550,9 +550,9 @@ section {
 /* Pricing */
 
 #pricing {
-	background: #00a8ff url('../img/pricing1.jpg') no-repeat center center;
-	-webkit-background-size: cover;
-	background-size: cover;
+	background: url('../img/men-suit.png') no-repeat center center;
+	//-webkit-background-size: cover;
+	//background-size: cover;
 	-webkit-transition: background-image 0.6s linear 0.3s;
 	transition: background-image 0.6s linear 0.3s;
 }
