@@ -1093,7 +1093,7 @@ footer .social-footer li:hover a {
 		width: 100%;
 		padding: 50px 50px 0;
 		text-align: left;
-		background: #fff;
+		//background: #fff;
 	}
 	.pricings .pricing .box-main.active {
 		//background: #fff;
