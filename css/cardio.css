@@ -550,7 +550,7 @@ section {
 /* Pricing */
 
 #pricing {
-	background: url('../img/men-suit.png') no-repeat center center;
+	background: url('../img/silk.jpg') no-repeat center center;
 	//-webkit-background-size: cover;
 	//background-size: cover;
 	-webkit-transition: background-image 0.6s linear 0.3s;
@@ -580,7 +580,7 @@ section {
 	width: 50%;
 	height: 300px;
 	padding: 50px 40px;
-	background: #bbb;
+	background: #fff;
 	-webkit-transition: -webkit-transform 0.3s, background-image 0.3s, opacity 0.3s;
 	transition: transform 0.3s, background-image 0.3s, opacity 0.3s;
 	-webkit-backface-visibility: hidden;
@@ -615,14 +615,16 @@ section {
 }
 
 .pricings .pricing .box-main:not(.active):hover {
-	background: #afafaf;
+	background: #fff;
+	border: 1px solid #ddd;
 }
 
 .pricings .pricing .box-main.active {
-	background: #00a8ff;
+	background: #fff;
 	-webkit-transform: translateX(-99%);
 	-ms-transform: translateX(-99%);
 	transform: translateX(-99%);
+	border: 1px solid #ddd;
 }
 
 .pricings .pricing .box-second {
@@ -631,17 +633,19 @@ section {
 	right: 0% !important;
 	left: auto;
 	opacity: 0;
-	background: #afafaf;
+	background: #fff;
+	border: 1px solid #ddd;
 }
 
 .pricings .pricing .box-second.active {
 	opacity: 1;
-	background: #00a8ff;
+	background: #fff;
+	border: 1px solid #ddd;
 }
 
 .pricings .pricing.active .box-main,
 .pricings .pricing .box-second {
-	background: #00a8ff;
+	background: #fff;
 }
 
 .pricings .pricing .box-main a.btn {
@@ -1077,10 +1081,10 @@ footer .social-footer li:hover a {
 		width: 100%;
 		padding: 50px 50px 0;
 		text-align: left;
-		background: #00a8ff;
+		background: #fff;
 	}
 	.pricings .pricing .box-main.active {
-		background: #00a8ff;
+		background: #fff;
 		-webkit-transform: translateX(0%);
 		-ms-transform: translateX(0%);
 		transform: translateX(0%);
