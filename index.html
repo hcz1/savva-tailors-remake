@@ -245,13 +245,15 @@
     	// Score Color
     		var theTime = new Date();
     		var hours = theTime.getHours();
-    		var sunday = theTime.getDay();
+    		var day = theTime.getDay();
     		var state = document.getElementsByClassName('open-blink')
-    		if (7 <= hours&&hours <=18  ) {
+    		if (8 <= hours&&hours <=18) {
             		color = 'green';
-        			}if (hours > 18 || sunday){
+        		}if (hours > 18 || day==7){
             		color = 'red';
-    				}
+    			}if (day == 6 && 8<=hours<13){
+    				color = 'green';
+    			}
         			$('#score').css('background-color', color);
     				
 				});
