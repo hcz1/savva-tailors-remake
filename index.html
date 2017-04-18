@@ -69,8 +69,8 @@
 				<div class="header-text">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h3 class="light white">Alterations | Made To Measure Suits | Remodeling Specialists</h3>
-							<h1 class="white typed">We Are Savva Tailors</h1>
+							<h3 class="light white">Alterations | Bespoke | Remodeling Specialists</h3>
+							<h1 class="white typed">Savva Tailors</h1>
 							<span class="typed-cursor">|</span>
 						</div>
 					</div>
@@ -94,7 +94,7 @@
 							<img src="img/icons/check-icon.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">About Us</h4>
-						<p class="description">Established in 1984, we specialise in bespoke, made to measure suits, alterations and remodeling specialists. We are a family run business with three generations. </p>
+						<p class="description">Established in 1984, we specialise in bespoke, made to measure suits, alterations and remodeling. We are a family run business with three generations. </p>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -112,7 +112,7 @@
 							 
 							<img src="img/icons/user-icon.png" alt="" class="icon">
 						</div>
-						<h4 class="heading">Suits</h4>
+						<h4 class="heading">Remodeling</h4>
 						<p class="description">Our suits are made to measure, with a choice of high quality fabrics.</p>
 					</div>
 				</div>
@@ -136,12 +136,11 @@
 						<div class="box-main active col-md-offset-9" data-img="img/silk.jpg">
 							<h4 class="white regular light">Contact Us Today</h4>
 							<h5 class="white regular light"><a href="tel:02076361826">0207 6361 826</a></h5>
-							<h5 class="white regular light">luke@savvatailors.co.uk</h5>
-							<h5 class="white regular light">george@savvatailors.co.uk</h5>
+							<h5 class="white regular light">info@savvatailors.co.uk</h5>
 							<h5 class="light regular white">Shropshire House</h5>
 							<h5 class="light regular white">179 Tottenham Court Road</h5>
 							<h5 class="light regular white">London W1T 7NZ</h5>
-							
+
 							<i class="info-icon icon_question"></i>
 						</div>
 					</div>
@@ -204,7 +203,7 @@
 
 				</div>
 				<div class="col-sm-6 text-center-mobile">
-					<h3 class="white">Opening Hours <span class="open-blink"></span></h3>
+					<h3 class="white">Opening Hours <span id="score" class="open-blink"></span></h3>
 					<div class="row opening-hours">
 						<div class="col-sm-6 text-center-mobile">
 							<h5 class="white">Mon - Fri</h5>
@@ -240,6 +239,23 @@
 	<script src="js/main.js"></script>
 	<script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+    	// Score Color
+    		var theTime = new Date().getHours();
+    		var color = 'red';
+    		var state = document.getElementsByClassName('open-blink')
+    		if (7 <= theTime&&theTime <=18  ) {
+            	color = '#4caf50';
+        			}if (7> theTime&&theTime > 18  ){
+            		color = '#FF0000';
+    				}
+        			$('#score').css('background-color', color);
+    				
+				});
+    </script>
 </body>
+
 
 </html>
