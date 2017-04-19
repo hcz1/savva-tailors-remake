@@ -117,10 +117,28 @@
 					</div>
 				</div>
 			</div>
+			<h4 class="heading text-center">Some Of Our Work</h4>
+			<div class="row">
+				<div class="col-md-3">
+					<img src="img/work/1.jpeg">
+				</div>
+				<div class="col-md-3">
+					<img src="img/work/2.jpeg">
+				</div>
+				<div class="col-md-3">
+					<img src="img/work/3.jpeg">
+				</div>
+				<div class="col-md-3">
+					<img src="img/work/4.jpeg">
+				</div>
+			</div>
 		</div>
 		<div class="cut cut-bottom"></div>
 	</section>
 	
+
+
+
 	<section id="pricing" class="section">
 		<div class="container">
 
@@ -246,10 +264,12 @@
     		var theTime = new Date();
     		var hours = theTime.getHours();
     		var day = theTime.getDay();
+    		var minutes = theTime.getMinutes();
+    		var color;
     		var state = document.getElementsByClassName('open-blink')
-    		if (8 <= hours&&hours <=18) {
+    		if (8 <= hours&&hours <17) {
             		color = 'green';
-        		}if (hours > 18 || day==7){
+        		}if (hours > 17 || day==7){
             		color = 'red';
     			}if (day == 6 && 8<=hours<13){
     				color = 'green';
