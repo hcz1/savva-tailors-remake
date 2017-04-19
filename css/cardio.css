@@ -279,6 +279,11 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	z-index: 1;
 }
 /* Sections */
+.test{
+	 margin: 0 auto;
+}
+
+
 section {
 	position: relative;
 }
@@ -965,6 +970,7 @@ footer .social-footer li:hover a {
 	-ms-transform: scale(0);
 	transform: scale(0);
 }
+
 
 .mobile-nav.active {
 	opacity: 1;
