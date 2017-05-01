@@ -688,6 +688,21 @@ footer .trial-button {
 	overflow: hidden !important;
 	margin: 40px 0;
 }
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.gallery{
+
+	margin-top: 20px;
+	float: none;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.control{
+	float: none;
+    margin: 0 auto;
+}
+
 
 footer .open-blink {
 	content: ' ';
