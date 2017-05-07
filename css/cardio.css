@@ -8,6 +8,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+
 .parallax {
 	position: absolute;
 	overflow: hidden;
@@ -688,8 +689,9 @@ footer .trial-button {
 	overflow: hidden !important;
 	margin: 40px 0;
 }
-.carousel .item img{
-    margin: 0 auto; /* Align slide image horizontally center */
+.item img{
+   
+    padding: 10px;
 }
 .gallery{
 
