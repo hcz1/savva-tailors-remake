@@ -714,7 +714,7 @@ footer .open-blink {
 	height: 14px;
 	margin: 0 20px;
 	border-radius: 50%;
-	background-color: #4caf50;
+	background-color: red;
 	-webkit-animation-name: flash;
 	animation-name: flash;
 	-webkit-animation-duration: 1s;
@@ -733,7 +733,7 @@ footer .open-blink:before {
 	height: 30px;
 	opacity: 0.1;
 	border-radius: 50%;
-	background-color: #4caf50;
+	background-color: red;
 }
 
 footer .opening-hours {

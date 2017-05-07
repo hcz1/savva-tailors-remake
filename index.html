@@ -270,23 +270,18 @@
     		var day = theTime.getDay();
     		var minutes = theTime.getMinutes();
     		var color;
-    		var state = document.getElementsByClassName('open-blink')
-    		if (8 <= hours&&hours <17) {
+    		var state = document.getElementsByClassName('open-blink');
+    		if (day=<6 && 8 <= hours&&hours <17) {
             		color = 'green';
-    			}if (day == 6 && 8<=hours<13){
+    			}else if (day == 6 && 8<=hours<13){
     				color = 'green';
-    			}if (hours > 17 || day==7){
+    			}else if (hours > 17 || day==7){
             		color = 'red';
             		}
         			$('#score').css('background-color', color);
-    				
 				});
     </script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-    	$('.carousel').carousel();
-    });
-    </script>
+   
 
 </body>
 
